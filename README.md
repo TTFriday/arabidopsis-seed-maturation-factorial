@@ -39,8 +39,10 @@ Two inputs are not redistributed and must be fetched before running scripts 17-2
    `data/raw/external/reference_files.json`. The sums of the files used for the results
    in this repository are already recorded there and checked against study-pinned hashes.
    If an upstream GO release has changed, the script stops rather than silently rewriting
-   the study baseline. The separate `reference_data_for_release.zip` snapshot can be
-   uploaded as a GitHub Release asset and unpacked at the repository root.
+   the study baseline. A snapshot of these files is attached to release v1.0.0: download
+   `reference_data_for_release.zip` from
+   https://github.com/TTFriday/arabidopsis-seed-maturation-factorial/releases/latest/download/reference_data_for_release.zip
+   and unpack it at the repository root (the internal paths match `data/raw/external/`).
 
 ## Environment
 
