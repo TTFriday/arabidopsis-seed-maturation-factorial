@@ -1,0 +1,6 @@
+part part.06 short (997/232960), retry 1
+part part.03 short (997/232960), retry 1
+part part.04 short (997/232960), retry 1
+part part.04 short (997/232960), retry 2
+done data/raw/external/GSE251921/GSE251921_RAW.tar 1863680 bytes
+exit=0

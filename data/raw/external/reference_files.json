@@ -1,0 +1,26 @@
+{
+  "data/raw/external/GO/tair.gaf.gz": {
+    "url": "https://current.geneontology.org/annotations/tair.gaf.gz",
+    "bytes": 7218381,
+    "sha256": "582ea7a8cbbae9427b6f68909681adae82d5cfb028b3189d00986ad918c23b45",
+    "retrieved": "2026-11-19"
+  },
+  "data/raw/external/GO/go-basic.obo": {
+    "url": "https://current.geneontology.org/ontology/go-basic.obo",
+    "bytes": 32227785,
+    "sha256": "b08d45b268b8c24ccb2513dbbbc7d4df9f6521c099b413f79eb31e06e0fa3bcc",
+    "retrieved": "2026-11-19"
+  },
+  "data/raw/external/TAIR10/Arabidopsis_thaliana.TAIR10.60.gff3.gz": {
+    "url": "https://ftp.ensemblgenomes.ebi.ac.uk/pub/plants/release-60/gff3/arabidopsis_thaliana/Arabidopsis_thaliana.TAIR10.60.gff3.gz",
+    "bytes": 9560902,
+    "sha256": "aa845e700335e44cfbccfaa233fe1d648bc0b9efa1f8cbfc8c5c5b5550a9eba7",
+    "retrieved": "2026-11-19"
+  },
+  "data/raw/external/TAIR10/Arabidopsis_thaliana.TAIR10.dna.toplevel.fa.gz": {
+    "url": "https://ftp.ensemblgenomes.ebi.ac.uk/pub/plants/release-60/fasta/arabidopsis_thaliana/dna/Arabidopsis_thaliana.TAIR10.dna.toplevel.fa.gz",
+    "bytes": 36462703,
+    "sha256": "80a13166003333ba4982b57abdb3d2b62037bc831f4da29ea378c1b776fff8e2",
+    "retrieved": "2026-11-19"
+  }
+}

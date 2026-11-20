@@ -1,0 +1,10 @@
+part part.00 short (997/579034), retry 1
+part part.05 short (997/579034), retry 1
+part part.01 short (997/579034), retry 1
+part part.06 short (997/579034), retry 1
+part part.03 short (997/579034), retry 1
+part part.04 short (997/579034), retry 1
+part part.06 short (997/579034), retry 2
+part part.05 short (997/579034), retry 2
+done data/raw/external/GSE5634/GSE5634_series_matrix.txt.gz 4632272 bytes
+exit=0
