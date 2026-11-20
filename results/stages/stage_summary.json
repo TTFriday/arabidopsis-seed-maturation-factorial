@@ -1,0 +1,81 @@
+{
+  "signature": {
+    "n_genes": 1396,
+    "sha256": "8eafe41d4573066aaf1305f4f5b64217b0c7a7a6d8d72be4d62ff76f9107ddc4",
+    "bonferroni_p_concordance": 0.0,
+    "n_present_all_stages": 1316,
+    "stage_sign_count_distribution": {
+      "0": 2,
+      "1": 24,
+      "2": 266,
+      "3": 1024
+    }
+  },
+  "stages": {
+    "20d": {
+      "n_tested": 16785,
+      "n_q05_unified": 2858,
+      "signature_tested": 1328,
+      "signature_mean_effect_raw": 0.004155021085971924,
+      "signature_median_effect_raw": -0.13318968237417556,
+      "signature_mean_effect_dry_signed": 0.5112624973313162,
+      "signature_median_effect_dry_signed": 0.4199518471387047,
+      "signature_sign_concordance": 0.7921686746987951,
+      "signature_rep_rate_q05_same_sign": 0.3313253012048193,
+      "signature_concordance_z": 61.439206515570056,
+      "signature_concordance_p": 0.0,
+      "signature_matched_null_p": 0.0,
+      "signature_matched_null_sd": 0.04622940294251131,
+      "all_gene_effect_spearman_vs_dry": 0.44541393626858683,
+      "all_gene_slope_vs_dry": [
+        0.07378773289483202,
+        0.15108740433904003
+      ],
+      "binom_p_sign_concordance": 7.102990126251808e-107
+    },
+    "22d": {
+      "n_tested": 18190,
+      "n_q05_unified": 7531,
+      "signature_tested": 1381,
+      "signature_mean_effect_raw": -0.28539292333246263,
+      "signature_median_effect_raw": -0.9543404744702686,
+      "signature_mean_effect_dry_signed": 2.0455698543933036,
+      "signature_median_effect_dry_signed": 1.6652883885705139,
+      "signature_sign_concordance": 0.9703113685734974,
+      "signature_rep_rate_q05_same_sign": 0.8052136133236785,
+      "signature_concordance_z": 192.57426726734326,
+      "signature_concordance_p": 0.0,
+      "signature_matched_null_p": 0.0,
+      "signature_matched_null_sd": 0.06773829616581152,
+      "all_gene_effect_spearman_vs_dry": 0.7343078368451481,
+      "all_gene_slope_vs_dry": [
+        0.47131930531927535,
+        0.2931550695573672
+      ],
+      "binom_p_sign_concordance": 0.0
+    },
+    "24d": {
+      "n_tested": 17068,
+      "n_q05_unified": 6637,
+      "signature_tested": 1375,
+      "signature_mean_effect_raw": 0.2597714409692899,
+      "signature_median_effect_raw": -0.7002003899627822,
+      "signature_mean_effect_dry_signed": 1.8054475249727435,
+      "signature_median_effect_dry_signed": 1.3213790472146552,
+      "signature_sign_concordance": 0.9912727272727273,
+      "signature_rep_rate_q05_same_sign": 0.8,
+      "signature_concordance_z": 150.51595537059472,
+      "signature_concordance_p": 0.0,
+      "signature_matched_null_p": 0.0,
+      "signature_matched_null_sd": 0.050084072925176845,
+      "all_gene_effect_spearman_vs_dry": 0.8070296226320701,
+      "all_gene_slope_vs_dry": [
+        0.34573363161302156,
+        0.7237719332419438
+      ],
+      "binom_p_sign_concordance": 0.0
+    }
+  },
+  "concordance": {},
+  "runtime_seconds": 48.3441264629364
+}

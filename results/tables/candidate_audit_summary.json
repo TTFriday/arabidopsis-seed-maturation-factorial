@@ -1,0 +1,51 @@
+{
+  "pre_registered_broad": {
+    "rule": "LRT q<0.05 and max |seven contrasts| >=1 log2",
+    "n": 6305
+  },
+  "post_hoc_stability": {
+    "rule": "at least one contrast with q<0.05, |log2|>=1 and Wald SE<=1; LRT q<0.05",
+    "n": 5571
+  },
+  "unstable_extreme": {
+    "rule": "any contrast with |log2|>10 and Wald SE>2 (separation artifact)",
+    "n_genes": 1191,
+    "n_among_broad": 921
+  },
+  "per_contrast": {
+    "AD_given_B0": {
+      "n_selected": 3368,
+      "n_supported_stable": 3172
+    },
+    "AD_given_B1": {
+      "n_selected": 1456,
+      "n_supported_stable": 1377
+    },
+    "AB_given_D0": {
+      "n_selected": 1304,
+      "n_supported_stable": 1216
+    },
+    "AB_given_D1": {
+      "n_selected": 1145,
+      "n_supported_stable": 1095
+    },
+    "DB_given_A0": {
+      "n_selected": 588,
+      "n_supported_stable": 530
+    },
+    "DB_given_A1": {
+      "n_selected": 3028,
+      "n_supported_stable": 2854
+    },
+    "ADB_three_way": {
+      "n_selected": 2431,
+      "n_supported_stable": 2235
+    }
+  },
+  "max_selected_se_quantiles": [
+    0.3343809365533279,
+    0.8669138302728926,
+    1.5213526789040563,
+    2.641021516583069
+  ]
+}

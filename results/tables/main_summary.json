@@ -1,0 +1,21 @@
+{
+  "n_genes_tested": 18014,
+  "filter": "CPM>=1 in >=3 of 24 samples",
+  "size_factor_range": [
+    0.7337462146630455,
+    1.7035592073779127
+  ],
+  "dispersion_median": 0.0018434157104172772,
+  "dispersion_df_prior": 1.0423550541296134,
+  "lrt_df": 4,
+  "n_q05": 14458,
+  "n_q01": 13034,
+  "n_contrast_q05_effect1": 6305,
+  "n_three_way_q05_effect1": 2431,
+  "max_abs_contrast_median": 0.8226355356983995,
+  "seconds_dispersion": 23.938457489013672,
+  "seconds_lrt": 15.933311700820923,
+  "seconds_total": 47.07136416435242,
+  "python": "3.10.9",
+  "platform": "Windows-10-10.0.19041-SP0"
+}
