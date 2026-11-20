@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+*.err.log
+results/figures/
+data/raw/supplemental_tables.xlsx
+data/raw/external/GO/
+data/raw/external/TAIR10/
+data/raw/external/*/*.pieces/
+results/traits/dry_seed_traits_replicates.csv
