@@ -1,0 +1,4 @@
+normalization,n_q05,n_candidates,spearman_stat_vs_primary,overlap_primary,jaccard_primary
+poscounts,14458,6305,1.0,6305,1.0
+library,14970,7119,0.8151361019758155,5371,0.6669564137588476
+tmm_like,10450,6203,0.8077825240721282,6003,0.9228285933897002

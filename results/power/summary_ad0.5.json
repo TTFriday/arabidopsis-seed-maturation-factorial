@@ -1,0 +1,15 @@
+{
+  "runs": 60,
+  "ad_effect_log2": 0.5,
+  "adb_effect_log2": null,
+  "mean_power_ad": 0.5238888888888888,
+  "mean_power_adb": NaN,
+  "mean_power_ad_contrast": 0.4467777777777778,
+  "mean_power_adb_contrast": NaN,
+  "mean_contrast_fpr05_ad": 0.0037037037037037034,
+  "median_ci_width_ad": 0.7490408346838544,
+  "mean_bias_ad": -0.0005206697834333714,
+  "mean_coverage_ad": 0.9533333333333331,
+  "mean_fpr05": 0.054876543209876553,
+  "seconds": 12.236122608184814
+}

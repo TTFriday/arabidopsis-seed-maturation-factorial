@@ -1,0 +1,23 @@
+=== filter ===
+filter  n_genes  n_q05  n_candidates  spearman_ad_vs_primary  overlap_primary  jaccard_primary
+cpm0.5    19249  14813          6653                     1.0             6245         0.930285
+cpm2.0    16665  13843          5680                     1.0             5609         0.879705
+=== norm ===
+normalization  n_q05  n_candidates  spearman_stat_vs_primary  overlap_primary  jaccard_primary
+    poscounts  14458          6305                  1.000000             6305         1.000000
+      library  14970          7119                  0.815136             5371         0.666956
+     tmm_like  13832         10336                  0.413364             5095         0.441278
+=== dispersion ===
+   variant  n_q05  n_candidates  spearman_effect_vs_primary  overlap_primary  jaccard_primary
+shrink_1.0  14636          6354                    1.000000             6304         0.991975
+shrink_1.2  14458          6305                    1.000000             6305         1.000000
+shrink_1.3  14380          6286                    1.000000             6285         0.996670
+trend_only  15182          6679                    0.999954             6299         0.942259
+ gene_wise  14612          6336                    1.000000             6304         0.994792
+=== ql ===
+{
+  "n_q05": 14421,
+  "overlap_primary_q05": 14066,
+  "jaccard_primary_q05": 0.9495713224870047,
+  "spearman_stat_vs_primary": 0.9661077937398039
+}

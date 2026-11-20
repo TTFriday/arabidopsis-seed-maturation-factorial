@@ -1,0 +1,7 @@
+{
+  "n_candidates": 6305,
+  "mean_candidate_persistence": 0.9708366375892149,
+  "min_candidate_persistence": 0.9463917525773196,
+  "mean_spearman_stat": 0.9919496846992087,
+  "seconds": 123.21811509132385
+}

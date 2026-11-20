@@ -1,0 +1,6 @@
+{
+  "n_q05": 14421,
+  "overlap_primary_q05": 14066,
+  "jaccard_primary_q05": 0.9495713224870047,
+  "spearman_stat_vs_primary": 0.9661077937398039
+}

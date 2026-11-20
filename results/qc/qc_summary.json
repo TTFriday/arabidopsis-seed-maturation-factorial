@@ -1,0 +1,22 @@
+{
+  "n_genes": 37336,
+  "duplicate_gene_ids": 0,
+  "n_samples": 123,
+  "genes_passing_filter_all123": {
+    "cpm0.5": 22169,
+    "cpm1.0": 20794,
+    "cpm2.0": 19421
+  },
+  "genes_passing_filter_main24": {
+    "cpm0.5": 19249,
+    "cpm1.0": 18014,
+    "cpm2.0": 16665
+  },
+  "min_samples_for_filter": 3,
+  "pc1_variance": 0.7943178152118991,
+  "pc2_variance": 0.06884676587267086,
+  "min_within_genotype_corr": 0.9902459889920425,
+  "max_between_genotype_corr": 0.9708667489288246,
+  "library_size_min_m": 2.577281,
+  "library_size_median_m": 11.678153
+}
