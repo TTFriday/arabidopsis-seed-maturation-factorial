@@ -1,0 +1,119 @@
+{
+  "data": "GSE5634 AtGenExpress, GSM131694-131708, stages 6-10, 3 arrays each",
+  "n_arrays": 15,
+  "value_scale": "linear MAS5 signal as deposited; log2 applied once before z-scoring",
+  "mapping": {
+    "platform": "GPL198 ATH1",
+    "probe_to_agi_pairs": 21439,
+    "unique_agi": 21189,
+    "bridge": "GPL198 Entrez Gene ID -> NCBI Arabidopsis gene_info (LocusTag/Synonyms/dbXrefs); organellar probes without AGI dropped"
+  },
+  "coverage": {
+    "up_total": 500,
+    "up_mapped": 412,
+    "down_total": 500,
+    "down_mapped": 442,
+    "combined_fraction": 0.854
+  },
+  "coverage_gate_pass": true,
+  "maturity_score": {
+    "n_up_used": 412,
+    "n_down_used": 442,
+    "stage_means": {
+      "6": -1.904102408644749,
+      "7": -1.850368050010417,
+      "8": 0.572555617887002,
+      "9": 1.2935547973217791,
+      "10": 1.8883600434463848
+    },
+    "stage_sd": {
+      "6": 0.03440586323599023,
+      "7": 0.05035542262018587,
+      "8": 0.04290164558049525,
+      "9": 0.03457517476040245,
+      "10": 0.0109752688870981
+    },
+    "spearman_stage_means_n5": 0.9999999999999999,
+    "spearman_stage_means_p_asymptotic_not_used": 1.4042654220543672e-24,
+    "spearman_stage_means_p_exact_two_sided": 0.016666666666666666,
+    "n_stage_permutations": 120,
+    "spearman_arrays_n15_descriptive": 0.971069611550166,
+    "spearman_arrays_p_descriptive": 1.8281168063183642e-09,
+    "monotone_stage_means": true,
+    "delta_stage10_minus_stage6": 3.792462452091134
+  },
+  "markers": [
+    {
+      "gene_id": "AT4G25140",
+      "name": "OLEOSIN1",
+      "mapped": true,
+      "probe": "254095_at",
+      "stage6": 12.26719944582149,
+      "stage7": 12.37654293881093,
+      "stage8": 13.221059484940474,
+      "stage9": 13.57349018927573,
+      "stage10": 13.48986522775082,
+      "delta_10_minus_6": 1.2226657819293312
+    },
+    {
+      "gene_id": "AT1G03880",
+      "name": "CRUCIFERIN2",
+      "mapped": true,
+      "probe": "265095_at",
+      "stage6": 12.73367658133286,
+      "stage7": 12.846188391392658,
+      "stage8": 13.573950104203666,
+      "stage9": 13.88413022809709,
+      "stage10": 13.77786280920102,
+      "delta_10_minus_6": 1.0441862278681597
+    },
+    {
+      "gene_id": "AT3G17520",
+      "name": "LEA",
+      "mapped": true,
+      "probe": "258347_at",
+      "stage6": 9.189461709841646,
+      "stage7": 10.416071483078412,
+      "stage8": 12.528350188496107,
+      "stage9": 12.834824309502393,
+      "stage10": 12.971967645319237,
+      "delta_10_minus_6": 3.782505935477591
+    },
+    {
+      "gene_id": "AT5G45830",
+      "name": "DOG1",
+      "mapped": true,
+      "probe": "248911_at",
+      "stage6": 8.408228522874943,
+      "stage7": 10.218267296590598,
+      "stage8": 10.734684922633207,
+      "stage9": 11.60159689101998,
+      "stage10": 10.90378916988758,
+      "delta_10_minus_6": 2.4955606470126366
+    },
+    {
+      "gene_id": "AT3G24650",
+      "name": "ABI3",
+      "mapped": true,
+      "probe": "256898_at",
+      "stage6": 9.025709473395834,
+      "stage7": 9.367219208798327,
+      "stage8": 9.901041008219726,
+      "stage9": 10.286151676534532,
+      "stage10": 10.135073635953306,
+      "delta_10_minus_6": 1.1093641625574726
+    },
+    {
+      "gene_id": "AT3G26790",
+      "name": "FUS3",
+      "mapped": true,
+      "probe": "258258_at",
+      "stage6": 9.454863822807647,
+      "stage7": 9.75010607009728,
+      "stage8": 9.70210426311044,
+      "stage9": 9.067111366625317,
+      "stage10": 9.252023992023052,
+      "delta_10_minus_6": -0.20283983078459578
+    }
+  ]
+}

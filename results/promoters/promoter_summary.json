@@ -1,0 +1,12 @@
+{
+  "genes_with_promoter": 17312,
+  "tested_genes": 18014,
+  "background_fraction_1000": {
+    "RY": 0.30377772643253237,
+    "ABRE": 0.15769408502772644,
+    "G-box": 0.16676293900184844,
+    "DRE": 0.24029574861367836,
+    "RY+ABRE": 0.051756007393715345
+  },
+  "strata": "expression decile x promoter GC tertile (30 strata)"
+}

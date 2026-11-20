@@ -1,0 +1,82 @@
+set,n
+AB_given_D0 | pathway-like | double up,26
+AB_given_D0 | quantitative | double up,134
+AB_given_D0 | quantitative | double down,90
+AB_given_D0 | suppression | double up,84
+AB_given_D0 | suppression | double down,64
+AB_given_D0 | synergistic | double up,126
+AB_given_D0 | synergistic | double down,101
+AB_given_D0 | synthetic | double up,327
+AB_given_D0 | synthetic | double down,182
+AB_given_D0 | all stable | delta positive,736
+AB_given_D0 | all stable | delta negative,480
+AB_given_D1 | masking by first | double up,472
+AB_given_D1 | masking by first | double down,51
+AB_given_D1 | pathway-like | double up,111
+AB_given_D1 | pathway-like | double down,43
+AB_given_D1 | quantitative | double up,95
+AB_given_D1 | quantitative | double down,47
+AB_given_D1 | suppression | double up,64
+AB_given_D1 | suppression | double down,78
+AB_given_D1 | synthetic | double up,59
+AB_given_D1 | all stable | delta positive,402
+AB_given_D1 | all stable | delta negative,693
+AD_given_B0 | inversion | double up,40
+AD_given_B0 | masking by second | double up,34
+AD_given_B0 | pathway-like | double up,36
+AD_given_B0 | quantitative | double up,163
+AD_given_B0 | quantitative | double down,163
+AD_given_B0 | suppression | double up,127
+AD_given_B0 | suppression | double down,115
+AD_given_B0 | synergistic | double up,473
+AD_given_B0 | synergistic | double down,229
+AD_given_B0 | synthetic | double up,786
+AD_given_B0 | synthetic | double down,935
+AD_given_B0 | all stable | delta positive,1675
+AD_given_B0 | all stable | delta negative,1497
+AD_given_B1 | masking by first | double up,61
+AD_given_B1 | masking by first | double down,30
+AD_given_B1 | pathway-like | double up,79
+AD_given_B1 | pathway-like | double down,55
+AD_given_B1 | quantitative | double up,157
+AD_given_B1 | quantitative | double down,95
+AD_given_B1 | suppression | double up,107
+AD_given_B1 | suppression | double down,118
+AD_given_B1 | synergistic | double up,121
+AD_given_B1 | synergistic | double down,163
+AD_given_B1 | synthetic | double up,228
+AD_given_B1 | synthetic | double down,113
+AD_given_B1 | all stable | delta positive,793
+AD_given_B1 | all stable | delta negative,584
+DB_given_A0 | masking by first | double up,104
+DB_given_A0 | pathway-like | double up,120
+DB_given_A0 | quantitative | double up,102
+DB_given_A0 | quantitative | double down,46
+DB_given_A0 | suppression | double up,40
+DB_given_A0 | synthetic | double up,31
+DB_given_A0 | synthetic | double down,28
+DB_given_A0 | all stable | delta positive,106
+DB_given_A0 | all stable | delta negative,424
+DB_given_A1 | masking by first | double up,808
+DB_given_A1 | masking by first | double down,156
+DB_given_A1 | masking by second | double up,28
+DB_given_A1 | pathway-like | double up,957
+DB_given_A1 | pathway-like | double down,295
+DB_given_A1 | quantitative | double up,150
+DB_given_A1 | quantitative | double down,94
+DB_given_A1 | suppression | double up,156
+DB_given_A1 | suppression | double down,129
+DB_given_A1 | synthetic | double up,37
+DB_given_A1 | all stable | delta positive,778
+DB_given_A1 | all stable | delta negative,2076
+ABI3xDOG1 with ABA2 only,2462
+ABI3xDOG1 in aba2-1 only,643
+DOG1xABA2 in abi3-12 only,2609
+ABI3xDOG1 in both ABA2 backgrounds,704
+DOG1xABA2 in both ABI3 backgrounds,297
+single abi3-12 up,1079
+single abi3-12 down,960
+single dog1-4 up,1645
+single dog1-4 down,384
+single aba2-1 up,881
+single aba2-1 down,195

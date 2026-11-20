@@ -1,0 +1,65 @@
+{
+  "retrieved": "2026-10-30",
+  "notes": [
+    "Files were downloaded from NCBI GEO/FTP over HTTPS with curl --ssl-no-revoke (Windows schannel CRL workaround).",
+    "Every ranged download was byte-checked against Content-Length before assembly; all final sizes match the server header.",
+    "The V1 RAW.tar is a GEO supplementary archive of per-sample count text files, not raw FASTQ.",
+    "GPL198.annot.gz has no TAIR AGI column; Entrez IDs were bridged to AGI through NCBI Arabidopsis gene_info before any V2 expression value was used."
+  ],
+  "files": [
+    {
+      "path": "data/raw/external/GSE251921/GSE251921_RAW.tar",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE251nnn/GSE251921/suppl/GSE251921_RAW.tar",
+      "bytes": 1863680,
+      "sha256": "8e4a7784965fef87cc0cc47cb967ba63e6bf3ff31847b16341b1e14bf16b2485",
+      "test": "tar -tf: 16 member files GSM7989996-GSM7990011, no errors",
+      "content": "per-sample BRBseqTools gene-level count files (TAIR10, no header, gene_id<TAB>count)"
+    },
+    {
+      "path": "data/raw/external/GSE251921/GSE251921_series_matrix.txt.gz",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE251nnn/GSE251921/matrix/GSE251921_series_matrix.txt.gz",
+      "bytes": 4863,
+      "sha256": "0d3af40bba6d00fc53ff17333e47fd8266b3a1ddb49e9703cd00c545fd3f42ea",
+      "test": "gzip -t: OK",
+      "content": "sample metadata; Col-0 GSM7989996-7989999, dog1-4 GSM7990000-7990003 confirmed"
+    },
+    {
+      "path": "data/raw/external/GSE5634/GSE5634_series_matrix.txt.gz",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE5nnn/GSE5634/matrix/GSE5634_series_matrix.txt.gz",
+      "bytes": 4632272,
+      "sha256": "5cfe34927c909fe97431247711767a8a4678089e51386c30b70e1d87a8d9a5ef",
+      "test": "gzip -t: OK; 22,810 probes x 24 arrays; stages 6-10 = GSM131694-131708 (3 arrays each)",
+      "content": "AtGenExpress developmental series, ATH1 MAS5 signal values, linear scale"
+    },
+    {
+      "path": "data/raw/external/GPL198/GPL198.annot.gz",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/platforms/GPLnnn/GPL198/annot/GPL198.annot.gz",
+      "bytes": 1864638,
+      "sha256": "fa42d17908426ae8c971db30175d07997c1a9de14dece9365bb096f9b62a6c87",
+      "test": "gzip -t: OK; 22,811 probes, 22,650 with Entrez Gene ID",
+      "content": "ATH1 probe annotation; no TAIR AGI column"
+    },
+    {
+      "path": "data/raw/external/GPL198/Arabidopsis_thaliana.gene_info.gz",
+      "url": "https://ftp.ncbi.nlm.nih.gov/gene/DATA/GENE_INFO/Plants/Arabidopsis_thaliana.gene_info.gz",
+      "bytes": 1492177,
+      "sha256": "7c74c9094d3f2d424b4f4c2a271cca01b4fa768cbd6be07aea5d9223fc14b45e",
+      "test": "gzip -t: OK; 38,314 rows, 37,899 with an AGI in LocusTag/Synonyms/dbXrefs",
+      "content": "NCBI Gene annotation used only to bridge GPL198 Entrez IDs to TAIR AGI IDs"
+    }
+  ],
+  "audit": {
+    "V1_samples_used": 8,
+    "V1_groups": "Col-0 4 arrays (GSM7989996-7989999) vs dog1-4 4 arrays (GSM7990000-7990003)",
+    "V1_genes_after_filter": 14091,
+    "V1_S_D_mapped": 1987,
+    "V1_S_D_mapped_and_filtered": 477,
+    "V1_coverage_gate_pass": false,
+    "V2_arrays_used": 15,
+    "V2_stage_groups": "6,7,8,9,10 DAP (3 arrays each)",
+    "V2_probe_to_AGI_pairs": 21439,
+    "V2_unique_AGI": 21189,
+    "V2_signature_coverage": 0.854,
+    "V2_coverage_gate_pass": true
+  }
+}

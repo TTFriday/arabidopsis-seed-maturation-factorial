@@ -1,0 +1,49 @@
+trait,genotype,cell,mean_transformed,n
+chlorophyll fluorescence (log2),Col-0,0,10.763925202018356,4
+chlorophyll fluorescence (log2),aba2-1,1,11.089514994661174,4
+chlorophyll fluorescence (log2),dog1-4,2,11.226429842554515,4
+chlorophyll fluorescence (log2),dog1-4 aba2-1,3,11.354304048261609,4
+chlorophyll fluorescence (log2),abi3-12,4,11.733579646726179,4
+chlorophyll fluorescence (log2),abi3-12 aba2-1,5,12.117229969937153,4
+chlorophyll fluorescence (log2),abi3-12 dog1-4,6,12.914511537177189,4
+chlorophyll fluorescence (log2),abi3-12 dog1-4 aba2-1,7,13.704863445486971,4
+longevity AUC (log2 days+1),Col-0,0,6.910311187794158,4
+longevity AUC (log2 days+1),aba2-1,1,6.800240376832204,4
+longevity AUC (log2 days+1),dog1-4,2,6.440986011456134,4
+longevity AUC (log2 days+1),dog1-4 aba2-1,3,6.11407637107232,4
+longevity AUC (log2 days+1),abi3-12,4,6.765843118518646,4
+longevity AUC (log2 days+1),abi3-12 aba2-1,5,5.473551583234975,4
+longevity AUC (log2 days+1),abi3-12 dog1-4,6,4.737545924276773,4
+longevity AUC (log2 days+1),abi3-12 dog1-4 aba2-1,7,3.01461986618234,4
+longevity P50 (log2 days+1),Col-0,0,6.903015741212467,4
+longevity P50 (log2 days+1),aba2-1,1,6.811685229951902,4
+longevity P50 (log2 days+1),dog1-4,2,6.46911472826703,4
+longevity P50 (log2 days+1),dog1-4 aba2-1,3,6.221613351495838,4
+longevity P50 (log2 days+1),abi3-12,4,6.75724946506337,4
+longevity P50 (log2 days+1),abi3-12 aba2-1,5,5.291398327682531,4
+longevity P50 (log2 days+1),abi3-12 dog1-4,6,3.8464224428329468,4
+longevity P50 (log2 days+1),abi3-12 dog1-4 aba2-1,7,1.7832603796695385,4
+seedling AUC (log2 days+1),Col-0,0,6.586890370666286,4
+seedling AUC (log2 days+1),aba2-1,1,6.355655071953517,4
+seedling AUC (log2 days+1),dog1-4,2,6.224084233249664,4
+seedling AUC (log2 days+1),dog1-4 aba2-1,3,5.839037222716299,4
+seedling AUC (log2 days+1),abi3-12,4,6.226101445059657,4
+seedling AUC (log2 days+1),abi3-12 aba2-1,5,4.949867083546571,4
+seedling AUC (log2 days+1),abi3-12 dog1-4,6,3.801685574573093,4
+seedling AUC (log2 days+1),abi3-12 dog1-4 aba2-1,7,1.6368993399829392,4
+dormancy (%),Col-0,0,73.89758179500001,4
+dormancy (%),aba2-1,1,4.93558074175,4
+dormancy (%),dog1-4,2,0.0,4
+dormancy (%),dog1-4 aba2-1,3,0.0,4
+dormancy (%),abi3-12,4,99.3421052625,4
+dormancy (%),abi3-12 aba2-1,5,2.5,4
+dormancy (%),abi3-12 dog1-4,6,0.0,4
+dormancy (%),abi3-12 dog1-4 aba2-1,7,0.0,4
+germination of fresh seeds (%),Col-0,0,26.10241820625,4
+germination of fresh seeds (%),aba2-1,1,95.0644192575,4
+germination of fresh seeds (%),dog1-4,2,100.0,4
+germination of fresh seeds (%),dog1-4 aba2-1,3,100.0,4
+germination of fresh seeds (%),abi3-12,4,0.0,4
+germination of fresh seeds (%),abi3-12 aba2-1,5,97.5,4
+germination of fresh seeds (%),abi3-12 dog1-4,6,97.92596613,4
+germination of fresh seeds (%),abi3-12 dog1-4 aba2-1,7,80.84307141000001,4

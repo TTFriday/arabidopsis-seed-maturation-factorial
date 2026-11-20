@@ -1,0 +1,62 @@
+{
+  "cyp_combination": {
+    "n_tested": 17500,
+    "signature_tested": 1384,
+    "signature_expressed_WT_AD": 1263,
+    "signature_median_AD_vs_WT": -0.8573756323649613,
+    "signature_median_CYP_vs_AD": 0.8050523676156591,
+    "signature_median_NET_vs_WT": -0.22891983224137097,
+    "expressed_median_AD_vs_WT": -1.0065439818046436,
+    "expressed_median_CYP_vs_AD": 0.8661547604473492,
+    "expressed_median_NET_vs_WT": -0.26797865121171016,
+    "frac_CYP_opposite_AD": 0.8930635838150289,
+    "frac_closer_to_WT": 0.838150289017341,
+    "frac_closer_to_WT_expressed": 0.8345209817893904,
+    "frac_still_different_from_WT_q05_abs05": 0.6054913294797688,
+    "n_still_different": 838,
+    "note": "AD and CYP contrasts share the AD group; direction opposition is partly mechanical and is not reported as rescue. NET_vs_WT does not share a control group of its own. 'expressed' requires >=10 normalized counts in both WT and AD group means."
+  },
+  "abi3_6": {
+    "mutant": "abi3-6",
+    "frozen_set": "LRT q<0.05 and |coef_A|>=1 (ABI3 main effect at D=0, B=0)",
+    "allele_note": "abi3-6 is a strong loss-of-function allele with severe maturation defects; abi3-12 is milder and partially divergent. The comparison is not a replicate of the same allele.",
+    "n_tested": 17814,
+    "set_tested": 1659,
+    "set_expressed_both": 521,
+    "set_median_effect": 5.795185972471535,
+    "expressed_median_effect": 0.9907235569590732,
+    "spearman_vs_primary_effect": 0.5566618776512787,
+    "slope_vs_primary_effect": 1.0530600844680431,
+    "sign_concordance": 0.7685352622061483,
+    "binom_p": 1.6973537036171995e-111,
+    "expressed_spearman": 0.692190424793509,
+    "expressed_slope": 0.43534630210023323,
+    "expressed_sign_concordance": 0.8099808061420346,
+    "n_set_changed_q05_abs05": 993,
+    "n_set_changed_q05_abs05_expressed": 455
+  },
+  "dog1_cvi": {
+    "mutant": "L2-1_Col-0_+_DOG1-Cvi",
+    "frozen_set": "LRT q<0.05 and |coef_D|>=1 (DOG1 main effect at A=0, B=0)",
+    "allele_note": "DOG1-Cvi is a Col-0 line carrying a DOG1-Cvi construct, not a loss-of-function dog1 allele; opposite direction to dog1-4 is the expected pattern for increased DOG1 dosage.",
+    "n_tested": 14721,
+    "set_tested": 438,
+    "set_expressed_both": 416,
+    "set_median_effect": -0.24022433253404576,
+    "expressed_median_effect": -0.1826105232701664,
+    "spearman_vs_primary_effect": -0.7256880787007698,
+    "slope_vs_primary_effect": -0.14634589211703178,
+    "sign_concordance": 0.13470319634703196,
+    "binom_p": 2.820285439011729e-58,
+    "expressed_spearman": -0.7219889519339117,
+    "expressed_slope": -0.13671557399664275,
+    "expressed_sign_concordance": 0.1346153846153846,
+    "n_set_changed_q05_abs05": 151,
+    "n_set_changed_q05_abs05_expressed": 140
+  },
+  "signature_AD": {
+    "n": 1396,
+    "sha256": "8eafe41d4573066aaf1305f4f5b64217b0c7a7a6d8d72be4d62ff76f9107ddc4"
+  },
+  "runtime_seconds": 11.245259761810303
+}

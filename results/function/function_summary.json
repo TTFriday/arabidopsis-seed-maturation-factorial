@@ -1,0 +1,10 @@
+{
+  "background_tested": 18014,
+  "background_bp_annotated": 9672,
+  "go_release": "releases/2026-07-26",
+  "n_sets": 81,
+  "abi3_targets_total": 2278,
+  "abi3_targets_in_background": 1763,
+  "panel_tested": 38,
+  "panel_total": 41
+}
